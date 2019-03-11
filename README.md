@@ -40,16 +40,16 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
      * User can leave a rating/review of the club
  * Profile (optional)
      * Lists of users interests and past reviews and ratings
+     * Can potentially see friends' ratings and network with them
 
 ## 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
- * Search (for schools)
  * Search (for clubs)
  * Feed
  * Profile
- * 
+ * Settings
 
 **Flow Navigation** (Screen to Screen)
 
@@ -59,21 +59,16 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
      * Feed/Home Screen 
  * Home screen
    * Search (for clubs)
-   * Search (for schools)
        * Detail (Club profile)
        * Creation of new rating entry
    * School feed
    * Profile
-       * Can see own/other's profiles
+       * Can see own past ratings
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="RateMyClubWireframe.jpeg" width=600>
 
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 [This section will be completed in Unit 9]
