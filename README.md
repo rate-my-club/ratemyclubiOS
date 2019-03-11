@@ -66,7 +66,6 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
        * Can see own past ratings
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
 <img src="RateMyClubWireframe.jpg" width=600>
 
 
