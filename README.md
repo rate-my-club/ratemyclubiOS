@@ -1,7 +1,5 @@
 
-# README Template
-
-Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that link) will look like the following in your README:
+# README 
 
 ## 1. User Stories (Required and Optional)
 
@@ -64,6 +62,8 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
    * School feed
    * Profile
        * Can see own past ratings
+   * Settings
+     * Can customize app/change login method
 
 ## Wireframes
 <img src="RateMyClubWireframe.jpg" width=600>
