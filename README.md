@@ -67,7 +67,7 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="RateMyClubWireframe.jpeg" width=600>
+<img src="RateMyClubWireframe.jpg" width=600>
 
 
 ## Schema 
