@@ -65,3 +65,8 @@ Your [design product spec](https://hackmd.io/s/H1wGpVUh7) (described in that lin
    * School feed
    * Profile
        * Can see own/other's profiles
+
+## Wireframes
+[Add picture of your hand sketched wireframes in this section]
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
