@@ -70,7 +70,8 @@
 
 
 ## Schema 
-[This section will be completed in Unit 9]
+|  ||  ||  |
+--- --- ---
 ### Models
 [Add table of models]
 ### Networking
