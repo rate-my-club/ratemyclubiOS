@@ -75,26 +75,20 @@
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+   | authButton    | Button   | button that links user to third party authoriation |
+   | signUpButton  | Button   | button that takes user to |
    
 #### Picker View
    
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
+   | schoolPicker  | Picker   | picker to select a school |
+   | goButton       | Button   | takes highlighted school as selected school |
 
 #### Home Screen
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
+   | o     | String   | unique id for the user post (default field) |
    | author        | Pointer to User| image author |
 
 
@@ -137,7 +131,7 @@
    | author        | Pointer to User| image author |
 
 #### List of network requests by screen
-   - Home Feed Screen
+   - Login/Create Account
       - (Read/GET) Query all posts where user is author
          ```swift
          let query = PFQuery(className:"Post")
@@ -156,9 +150,9 @@
       - (Delete) Delete existing like
       - (Create/POST) Create a new comment on a post
       - (Delete) Delete existing comment
-   - Create Post Screen
+   - Make A Club
       - (Create/POST) Create a new post object
-   - Profile Screen
+   - Rate A Club
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
 
