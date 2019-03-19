@@ -72,23 +72,19 @@
 ## Schema 
 ### Models
 #### Login
-
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | authButton    | Button   | button that links user to third party authoriation |
-   | signUpButton  | Button   | button that takes user to |
+   Third party login, so no data collected
    
 #### Picker View
    
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | schoolPicker  | Picker   | picker to select a school |
-   | goButton       | Button   | takes highlighted school as selected school |
+   | schoolName    | String   | Name of school for user to select in picker view |
+   
 
 #### Home Screen
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | o     | String   | unique id for the user post (default field) |
+   | topClubs      | Array    | Sorted array with top rated clubs first |
    | author        | Pointer to User| image author |
 
 
