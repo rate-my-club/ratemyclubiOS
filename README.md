@@ -74,11 +74,14 @@
 #### Login
    Third party login, so no data collected
    
-#### Picker View
+#### Club Reviews
    
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | schoolName    | String   | Name of school for user to select in picker view |
+   | review        | String   | What a person says about a club|
+   | author        | String   | Who said it|
+   | rating        | Number   | Numerical Rating out of 5 of club|
+   | date          | DateTime | When the review was left|
    
 
 
