@@ -94,8 +94,3 @@
       - (Create/POST) Create a Club JSON object with it's name and properties 
    - Rate A Club
       - (Update/PUT) Take a user's rating and append it to the club's array of ratings
-
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
