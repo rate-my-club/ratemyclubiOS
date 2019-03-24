@@ -81,50 +81,6 @@
    | schoolName    | String   | Name of school for user to select in picker view |
    
 
-#### Home Screen
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | topClubs      | Array    | Sorted array with top rated clubs first |
-   | author        | Pointer to User| image author |
-
-
-#### Search
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-
-
-#### Find Club
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-
-#### Add a Club
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-
-
-#### Profile
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-
-#### Settings
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-
-### Networking
-   | Property      | Type     | Description |
-   | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
 
 #### List of network requests by screen
    - Find Your College
