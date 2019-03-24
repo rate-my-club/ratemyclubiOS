@@ -127,12 +127,14 @@
    | author        | Pointer to User| image author |
 
 #### List of network requests by screen
-  
+   - Find Your College
+    -(Read/GET) Grab list of colleges from ed.gov's College Scorecard API
+    https://api.data.gov/ed/collegescorecard/v1/schools.json?&_fields=id,school.name,2016.student.size&2016.student.size__range=2000..&_sort=2016.student.size:desc&_per_page=100&_page=0&api_key=KZIaPo7v03IUNaIG7XrySMfHMVjhvjGTzEfC9qgp
+   - We will populate a String array with each page's names, and have a variable (per_page) that increments to get all the names we want. (The data in the API is listed in sets of pages).
    - Make A Club
-      - (Create/POST) Create a new post object
+      - (Create/POST) Create a Club JSON object with it's name and properties 
    - Rate A Club
-      - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
+      - (Update/PUT) Take a user's rating and append it to the club's array of ratings
 
 ### Networking
 - [Add list of network requests by screen ]
