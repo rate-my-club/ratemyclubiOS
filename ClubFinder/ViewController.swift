@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+ 
+    
 
     //the json file
     var URL = "https://api.data.gov/ed/collegescorecard/v1/schools.json?&_fields=id,school.name,2016.student.size&2016.student.size__range=2000..&_sort=2016.student.size:desc&_per_page=100&_page=0&api_key=KZIaPo7v03IUNaIG7XrySMfHMVjhvjGTzEfC9qgp"
@@ -20,15 +22,19 @@ class ViewController: UIViewController {
     var schoolNames = [String]()
     
     @IBOutlet weak var labelTest: UILabel!
+    @IBOutlet weak var schoolPicker: UIPickerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         var count = 0
-        self.pagesURL.append(URL)
-        while (count < 23) {
-            URL = "https://api.data.gov/ed/collegescorecard/v1/schools.json?&_fields=id,school.name,2016.student.size&2016.student.size__range=2000..&_sort=2016.student.size:desc&_per_page=100&_page=" + (count as? String ?? "0") + "&api_key=KZIaPo7v03IUNaIG7XrySMfHMVjhvjGTzEfC9qgp"
+        while (count < 21) {
+            URL = "https://api.data.gov/ed/collegescorecard/v1/schools.json?&_fields=id,school.name,2016.student.size&2016.student.size__range=2000..&_sort=2016.student.size:desc&_per_page=100&_page=" + String(count) + "&api_key=KZIaPo7v03IUNaIG7XrySMfHMVjhvjGTzEfC9qgp"
+            self.pagesURL.append(URL)
             count = count + 1
-            print("here")
+            
             
         }
         
@@ -36,7 +42,14 @@ class ViewController: UIViewController {
         
         getJSON {
             print(self.schoolNames)
+      
+         
+            
+            
         }
+        
+        
+        
         
         
         
@@ -45,41 +58,61 @@ class ViewController: UIViewController {
     
     
     func getJSON(completionHandler: @escaping () -> ()) {
-        //print("Here")
-        
-        let url = NSURL(string: URL)
-        
-        URLSession.shared.dataTask(with: (url as URL?)!, completionHandler: {(data, response, error) -> Void in
+       
+        for the_url in pagesURL {
+            let url = NSURL(string: the_url)
             
-        if let jsonObj = try? JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? NSDictionary {
-            
-            if let schoolArray = jsonObj!.value(forKey: "results") as? NSArray {
-                for school in schoolArray {
-                    if let schoolDict = school as? NSDictionary {
-                        if let name = schoolDict.value(forKey: "school.name") {
-                            //print(name)
-                            self.schoolNames.append(name as? String ?? "noname")
-                        
+            URLSession.shared.dataTask(with: (url as URL?)!, completionHandler: {(data, response, error) -> Void in
+                
+                if let jsonObj = try? JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? NSDictionary {
+                    
+                    if let schoolArray = jsonObj!.value(forKey: "results") as? NSArray {
+                        for school in schoolArray {
+                            if let schoolDict = school as? NSDictionary {
+                                if let name = schoolDict.value(forKey: "school.name") {
+                                  
+                                    self.schoolNames.append(name as? String ?? "noname")
+                                    
+                                }
+                            }
                         }
                     }
+                    
+                    OperationQueue.main.addOperation({
+                            self.labelTest.text = self.schoolNames[51]
+                        
+                        
+                        
+                    })
+                    completionHandler()
+                    //print(jsonObj!.value(forKey: "results") ?? "didn't work")
+                    
+                    
+                    
                 }
-            }
-            completionHandler()
-            //print(jsonObj!.value(forKey: "results") ?? "didn't work")
-            
-            
-            
+            }).resume()
         }
-    }).resume()
+      
         
         
 
 }
     
-    func tryJSONAgain() {
-        
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
     }
-
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return 2000
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return schoolNames[row]
+    }
+    
+   
+    
+    
 
 }
 
