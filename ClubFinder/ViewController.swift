@@ -27,6 +27,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        schoolPicker.dataSource = self
+        schoolPicker.delegate = self
+        
         
         
         var count = 0
@@ -41,9 +44,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         
         getJSON {
-            print(self.schoolNames)
+//            print(self.schoolNames)
+            
+            self.schoolPicker.reloadAllComponents()
       
-         
             
             
         }
@@ -78,13 +82,18 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                         }
                     }
                     
-                    OperationQueue.main.addOperation({
-                            self.labelTest.text = self.schoolNames[51]
-                        
-                        
-                        
-                    })
-                    completionHandler()
+//                    OperationQueue.main.addOperation({
+//                            self.labelTest.text = self.schoolNames[51]
+//                            self.schoolPicker.reloadAllComponents()
+//
+//
+//
+//
+//                    })
+                    DispatchQueue.main.async {
+                       completionHandler()
+                    }
+                    
                     //print(jsonObj!.value(forKey: "results") ?? "didn't work")
                     
                     
@@ -103,7 +112,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return 2000
+        print(schoolNames.count)
+        return schoolNames.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
