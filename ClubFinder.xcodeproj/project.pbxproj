@@ -14,6 +14,15 @@
 		DD0E324A2249886A0008B0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0E32482249886A0008B0DC /* LaunchScreen.storyboard */; };
 		DD0E32552249886A0008B0DC /* ClubFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E32542249886A0008B0DC /* ClubFinderTests.swift */; };
 		DD0E32602249886A0008B0DC /* ClubFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E325F2249886A0008B0DC /* ClubFinderUITests.swift */; };
+		DDBD8F902251931B00E65031 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F8F2251931B00E65031 /* LoginViewController.swift */; };
+		DDBD8F922251997C00E65031 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F912251997C00E65031 /* MainTabBarViewController.swift */; };
+		DDBD8F9422519C6000E65031 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9322519C6000E65031 /* SearchViewController.swift */; };
+		DDBD8F9622519D2C00E65031 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9522519D2C00E65031 /* HomeViewController.swift */; };
+		DDBD8F9822519D4D00E65031 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9722519D4D00E65031 /* ProfileViewController.swift */; };
+		DDBD8F9A22519D6900E65031 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9922519D6900E65031 /* SettingsViewController.swift */; };
+		DDBD8F9C2251A0DB00E65031 /* FindClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9B2251A0DB00E65031 /* FindClubViewController.swift */; };
+		DDBD8F9E2251A10500E65031 /* AddClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9D2251A10500E65031 /* AddClubViewController.swift */; };
+		DDBD8FA22251A32200E65031 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		DD0E325B2249886A0008B0DC /* ClubFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0E325F2249886A0008B0DC /* ClubFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubFinderUITests.swift; sourceTree = "<group>"; };
 		DD0E32612249886A0008B0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBD8F8F2251931B00E65031 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DDBD8F912251997C00E65031 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		DDBD8F9322519C6000E65031 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DDBD8F9522519D2C00E65031 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DDBD8F9722519D4D00E65031 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DDBD8F9922519D6900E65031 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DDBD8F9B2251A0DB00E65031 /* FindClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClubViewController.swift; sourceTree = "<group>"; };
+		DDBD8F9D2251A10500E65031 /* AddClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClubViewController.swift; sourceTree = "<group>"; };
+		DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,15 @@
 				DD0E323F224988670008B0DC /* AppDelegate.swift */,
 				DD0E3241224988670008B0DC /* ViewController.swift */,
 				DD0E3243224988670008B0DC /* Main.storyboard */,
+				DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */,
+				DDBD8F9D2251A10500E65031 /* AddClubViewController.swift */,
+				DDBD8F9922519D6900E65031 /* SettingsViewController.swift */,
+				DDBD8F9722519D4D00E65031 /* ProfileViewController.swift */,
+				DDBD8F9B2251A0DB00E65031 /* FindClubViewController.swift */,
+				DDBD8F9522519D2C00E65031 /* HomeViewController.swift */,
+				DDBD8F9322519C6000E65031 /* SearchViewController.swift */,
+				DDBD8F912251997C00E65031 /* MainTabBarViewController.swift */,
+				DDBD8F8F2251931B00E65031 /* LoginViewController.swift */,
 				DD0E32462249886A0008B0DC /* Assets.xcassets */,
 				DD0E32482249886A0008B0DC /* LaunchScreen.storyboard */,
 				DD0E324B2249886A0008B0DC /* Info.plist */,
@@ -256,8 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBD8F9422519C6000E65031 /* SearchViewController.swift in Sources */,
+				DDBD8F9C2251A0DB00E65031 /* FindClubViewController.swift in Sources */,
+				DDBD8F9E2251A10500E65031 /* AddClubViewController.swift in Sources */,
+				DDBD8F902251931B00E65031 /* LoginViewController.swift in Sources */,
+				DDBD8FA22251A32200E65031 /* SearchTableViewCell.swift in Sources */,
+				DDBD8F922251997C00E65031 /* MainTabBarViewController.swift in Sources */,
 				DD0E3242224988670008B0DC /* ViewController.swift in Sources */,
+				DDBD8F9822519D4D00E65031 /* ProfileViewController.swift in Sources */,
 				DD0E3240224988670008B0DC /* AppDelegate.swift in Sources */,
+				DDBD8F9622519D2C00E65031 /* HomeViewController.swift in Sources */,
+				DDBD8F9A22519D6900E65031 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

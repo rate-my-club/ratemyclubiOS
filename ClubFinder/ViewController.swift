@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     var schoolNames = [String]()
     
-    @IBOutlet weak var labelTest: UILabel!
+
     @IBOutlet weak var schoolPicker: UIPickerView!
     
     override func viewDidLoad() {
@@ -45,7 +45,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
         getJSON {
 //            print(self.schoolNames)
-            
+            self.schoolNames.sort()
             self.schoolPicker.reloadAllComponents()
       
             
@@ -83,7 +83,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                     }
                     
 //                    OperationQueue.main.addOperation({
-//                            self.labelTest.text = self.schoolNames[51]
+//                            
 //                            self.schoolPicker.reloadAllComponents()
 //
 //
