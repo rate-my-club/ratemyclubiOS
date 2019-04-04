@@ -97,4 +97,4 @@
 
 #### Milestone #1 Assessment:
 - After this week's sprint, we have been able to pull from our desired database(Used the Database of Accredited Postsecondary Institutions and Programs) and assign it to the sorted pickerview. We have also set up the basic layout of the first few screens working. We have not finished the entire layout of the app yet and therefore need to complete the remainder this week.
-- For this next week, we will prioritize Backend Functionality and set up our MongoDB backend up and running. This includes collections for each school, clubs within each school, and reviews within clubs.
+- For this next week, we will prioritize Backend Functionality and setting up our MongoDB backend. This includes collections for each school, clubs within each school, and reviews within clubs.
