@@ -103,3 +103,5 @@
 <img src='http://g.recordit.co/8Z4sgHKD2I.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ![alt text](https://i.imgur.com/7nt8V84.png)
+
+Added functionality for storing collections of schools including documents for each club containg the name, description, ratings, etc.
