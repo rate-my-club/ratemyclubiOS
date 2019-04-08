@@ -101,3 +101,5 @@
 
 
 <img src='http://g.recordit.co/8Z4sgHKD2I.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+https://i.imgur.com/7nt8V84.png
