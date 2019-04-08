@@ -112,7 +112,7 @@
         <!--Item 2-->
         <scene sceneID="sXl-se-Omq">
             <objects>
-                <viewController id="g07-BD-1qm" customClass="SearchViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="g07-BD-1qm" customClass="HomeViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ar-8q-XTG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -146,8 +146,7 @@
         <!--Item-->
         <scene sceneID="fQQ-e5-BGn">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fzj-kp-Ynq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="pnz-rr-Twg" customClass="HomeViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pnz-rr-Twg" customClass="ProfileViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tbP-ll-iWo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,13 +176,14 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="5cw-0z-uPX"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzj-kp-Ynq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1263" y="1235"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="dW8-GA-VbQ">
             <objects>
-                <viewController id="kyd-rB-Afb" customClass="ProfileViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kyd-rB-Afb" customClass="SearchViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eXr-5R-bto">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,37 +193,79 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Mnl-EJ-Cdb">
-                                <rect key="frame" x="0.0" y="76" width="375" height="485"/>
+                                <rect key="frame" x="0.0" y="76" width="375" height="469"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="469" id="XI8-2y-3oM"/>
+                                </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTableViewCell" rowHeight="143" id="ru2-4y-ATA" customClass="SearchTableViewCell" customModule="ClubFinder" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="143"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTableViewCell" rowHeight="263" id="ru2-4y-ATA" customClass="SearchTableViewCell" customModule="ClubFinder" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="263"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ru2-4y-ATA" id="1mO-Lo-0A8">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="262.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvs-VF-0Ia">
-                                                    <rect key="frame" x="15" y="61" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="The Political Discourse Club" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvs-VF-0Ia">
+                                                    <rect key="frame" x="48" y="0.0" width="327" height="50"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Providing students with a place on campus to talk about the issues they care about." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIf-TE-gyi">
+                                                    <rect key="frame" x="166" y="58" width="194" height="111"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="111" id="xrf-S8-SI1"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6e2-Um-QBW">
+                                                    <rect key="frame" x="7" y="58" width="151" height="93"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5/5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFE-Nb-YMw">
+                                                    <rect key="frame" x="48" y="159" width="40" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="lvs-VF-0Ia" firstAttribute="leading" secondItem="1mO-Lo-0A8" secondAttribute="leadingMargin" id="0Cd-iw-BzU"/>
-                                                <constraint firstItem="lvs-VF-0Ia" firstAttribute="top" secondItem="1mO-Lo-0A8" secondAttribute="topMargin" constant="50" id="1u0-tl-6ll"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="lvs-VF-0Ia" secondAttribute="trailing" constant="303" id="3xI-4J-LEk"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="lvs-VF-0Ia" secondAttribute="bottom" constant="50" id="Bru-s8-L68"/>
+                                                <constraint firstItem="6e2-Um-QBW" firstAttribute="leading" secondItem="1mO-Lo-0A8" secondAttribute="leadingMargin" constant="-9" id="5Yt-T0-dhp"/>
+                                                <constraint firstItem="lvs-VF-0Ia" firstAttribute="leading" secondItem="1mO-Lo-0A8" secondAttribute="leadingMargin" constant="33" id="7v4-47-alg"/>
+                                                <constraint firstItem="QFE-Nb-YMw" firstAttribute="leading" secondItem="lvs-VF-0Ia" secondAttribute="leading" id="AUg-vl-ae8"/>
+                                                <constraint firstItem="lvs-VF-0Ia" firstAttribute="top" secondItem="1mO-Lo-0A8" secondAttribute="top" id="GK1-O4-wol"/>
+                                                <constraint firstAttribute="trailing" secondItem="lvs-VF-0Ia" secondAttribute="trailing" id="PE9-Pt-jVl"/>
+                                                <constraint firstItem="6e2-Um-QBW" firstAttribute="top" secondItem="lvs-VF-0Ia" secondAttribute="bottom" constant="8" symbolic="YES" id="WhT-dn-ZWH"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="xIf-TE-gyi" secondAttribute="bottom" constant="83" id="aVX-23-sQY"/>
+                                                <constraint firstItem="xIf-TE-gyi" firstAttribute="leading" secondItem="6e2-Um-QBW" secondAttribute="trailing" constant="8" symbolic="YES" id="mTc-pB-yZ4"/>
+                                                <constraint firstItem="xIf-TE-gyi" firstAttribute="leading" secondItem="QFE-Nb-YMw" secondAttribute="trailing" constant="78" id="qoI-O0-0QZ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QFE-Nb-YMw" secondAttribute="bottom" constant="72" id="qsl-K2-u9S"/>
+                                                <constraint firstItem="xIf-TE-gyi" firstAttribute="trailing" secondItem="1mO-Lo-0A8" secondAttribute="trailingMargin" id="sE1-xi-kOP"/>
+                                                <constraint firstItem="6e2-Um-QBW" firstAttribute="top" secondItem="xIf-TE-gyi" secondAttribute="top" id="uGK-nd-yvT"/>
+                                                <constraint firstItem="QFE-Nb-YMw" firstAttribute="top" secondItem="6e2-Um-QBW" secondAttribute="bottom" constant="8" symbolic="YES" id="zmA-i1-ETe"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="VO9-8c-Zag" kind="show" id="ate-kG-60n"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Club Not Found?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDc-h6-eTt">
+                                <rect key="frame" x="123" y="553" width="129" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cmH-lQ-Qum"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8E-7x-Fi0">
-                                <rect key="frame" x="138" y="568" width="102" height="36"/>
+                                <rect key="frame" x="147" y="582" width="81" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Not Found?">
+                                <state key="normal" title="Add Club">
                                     <color key="titleColor" red="1" green="0.67656136259999999" blue="0.52598134630000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -233,21 +275,26 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="G8E-7x-Fi0" firstAttribute="bottom" secondItem="ZvK-bq-n0v" secondAttribute="bottom" id="4tt-6w-6gz"/>
                             <constraint firstItem="Mnl-EJ-Cdb" firstAttribute="leading" secondItem="ZvK-bq-n0v" secondAttribute="leading" id="8Bb-jI-3GL"/>
-                            <constraint firstItem="G8E-7x-Fi0" firstAttribute="top" secondItem="Mnl-EJ-Cdb" secondAttribute="bottom" constant="7" id="A0T-Dt-jwz"/>
+                            <constraint firstItem="G8E-7x-Fi0" firstAttribute="top" secondItem="eDc-h6-eTt" secondAttribute="bottom" constant="8" id="8Bn-jX-Lgy"/>
+                            <constraint firstItem="eDc-h6-eTt" firstAttribute="centerX" secondItem="G8E-7x-Fi0" secondAttribute="centerX" id="L4l-0e-LYZ"/>
                             <constraint firstItem="Mnl-EJ-Cdb" firstAttribute="trailing" secondItem="ZvK-bq-n0v" secondAttribute="trailing" id="LY4-NI-O0t"/>
-                            <constraint firstItem="G8E-7x-Fi0" firstAttribute="top" secondItem="Mnl-EJ-Cdb" secondAttribute="bottom" constant="7" id="Z4O-SG-ELB"/>
+                            <constraint firstItem="eDc-h6-eTt" firstAttribute="leading" secondItem="ZvK-bq-n0v" secondAttribute="leading" constant="123" id="TDx-if-0sB"/>
                             <constraint firstItem="KcP-EL-dW2" firstAttribute="leading" secondItem="ZvK-bq-n0v" secondAttribute="leading" id="bkJ-7m-gdf"/>
                             <constraint firstItem="Mnl-EJ-Cdb" firstAttribute="top" secondItem="KcP-EL-dW2" secondAttribute="bottom" id="cLj-xO-D9g"/>
-                            <constraint firstItem="G8E-7x-Fi0" firstAttribute="leading" secondItem="ZvK-bq-n0v" secondAttribute="leading" constant="138" id="cgA-IN-GOB"/>
                             <constraint firstItem="KcP-EL-dW2" firstAttribute="trailing" secondItem="ZvK-bq-n0v" secondAttribute="trailing" id="eQ1-0t-n6w"/>
-                            <constraint firstItem="ZvK-bq-n0v" firstAttribute="bottom" secondItem="G8E-7x-Fi0" secondAttribute="bottom" constant="14" id="foe-XL-Pbf"/>
+                            <constraint firstItem="ZvK-bq-n0v" firstAttribute="trailing" secondItem="G8E-7x-Fi0" secondAttribute="trailing" constant="147" id="kmd-4W-jqN"/>
                             <constraint firstItem="KcP-EL-dW2" firstAttribute="top" secondItem="ZvK-bq-n0v" secondAttribute="top" id="p9K-aj-eAr"/>
                             <constraint firstItem="ZvK-bq-n0v" firstAttribute="bottom" secondItem="KcP-EL-dW2" secondAttribute="bottom" constant="542" id="qzo-vf-eHy"/>
+                            <constraint firstItem="G8E-7x-Fi0" firstAttribute="leading" secondItem="ZvK-bq-n0v" secondAttribute="leading" constant="147" id="yS1-WT-9in"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZvK-bq-n0v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="kyS-Ho-Pjn"/>
+                    <connections>
+                        <outlet property="tableview" destination="Mnl-EJ-Cdb" id="dbx-xd-0NT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVF-kt-abb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -262,10 +309,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBu-Bn-UmC">
-                                <rect key="frame" x="160" y="616" width="58" height="36"/>
+                                <rect key="frame" x="163" y="616" width="53" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Home">
                                     <color key="titleColor" red="1" green="0.67656136259999999" blue="0.52598134630000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
@@ -364,6 +411,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="ate-kG-60n"/>
         <segue reference="2er-sV-TU5"/>
     </inferredMetricsTieBreakers>
 </document>
