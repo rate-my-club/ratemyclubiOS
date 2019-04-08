@@ -102,14 +102,12 @@
 
 <img src='http://g.recordit.co/8Z4sgHKD2I.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-![alt text](https://i.imgur.com/7nt8V84.png)
-
-Added functionality for storing collections of schools including documents for each club containg the name, description, ratings, etc.
-
 
 #### Milestone #2 Assesment:
 - This week we tried to set up our back end. We got a fully functional MongoDB up but could not connect it with siwft. We tried using a third party driver called MongoKitten, but it would not install properly. This next week we will look to transisiton to something like Parse. Other than that, our structure for our backend is set, but if we cannot get MongoDB to sync with Swift then we will look for something else. We also made a little more progress on the layout. 
 
 <img src='https://i.imgur.com/0i60Kwk.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />' 
 
+![alt text](https://i.imgur.com/7nt8V84.png)
 
+Added functionality for storing collections of schools including documents for each club containg the name, description, ratings, etc.
