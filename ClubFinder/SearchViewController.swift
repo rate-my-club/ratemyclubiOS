@@ -12,13 +12,35 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
  
     @IBOutlet weak var tableview: UITableView!
     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableview.delegate = self
         tableview.dataSource = self
+        getJSON()
 
         // Do any additional setup after loading the view.
+    }
+    
+    func getJSON() {
+        let url = URL(string: "https://localhost:27017")!
+        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
+        let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
+        let task = session.dataTask(with: request) { (data, response, error) in
+            // This will run when the network request returns
+            if let error = error {
+                print(error.localizedDescription)
+            } else if let data = data {
+                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                
+                print(dataDictionary)
+                
+            }
+        }
+        task.resume()
+        
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
