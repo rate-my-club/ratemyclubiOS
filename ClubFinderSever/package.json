@@ -1,0 +1,17 @@
+{
+  "name": "clubfindersever",
+  "version": "1.0.0",
+  "description": "A node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sunil",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.5.0"
+  }
+}

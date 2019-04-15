@@ -7,7 +7,11 @@
 //
 
 import UIKit
+<<<<<<< HEAD
 import GoogleSignIn
+=======
+
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+<<<<<<< HEAD
         
         GIDSignIn.sharedInstance()?.clientID = "693570370078-pd3eqopk4279ag1vk338dcs3iiucmuqo.apps.googleusercontent.com"
         return true
@@ -26,6 +31,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                                  sourceApplication: options[UIApplication.OpenURLOptionsKey.sourceApplication] as? String,
                                                  annotation: options[UIApplication.OpenURLOptionsKey.annotation])
     }
+=======
+        return true
+    }
+
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

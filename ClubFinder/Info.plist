@@ -16,6 +16,7 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+<<<<<<< HEAD
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -27,6 +28,8 @@
 			</array>
 		</dict>
 	</array>
+=======
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
