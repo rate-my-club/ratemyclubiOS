@@ -19,6 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWx-0M-twV">
+<<<<<<< HEAD
+                                <rect key="frame" x="84" y="311" width="207" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Login with Google">
+                                    <color key="titleColor" red="1" green="0.67656136259999999" blue="0.52598134630000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+=======
                                 <rect key="frame" x="120" y="210" width="135" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="135" id="HBS-Z5-5VS"/>
@@ -46,10 +53,23 @@
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="30C-ds-ju4"/>
                                 </connections>
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+<<<<<<< HEAD
+                            <constraint firstItem="Pg0-k4-0iD" firstAttribute="bottom" secondItem="wWx-0M-twV" secondAttribute="bottom" constant="311" id="5Mw-RY-TZT"/>
+                            <constraint firstItem="wWx-0M-twV" firstAttribute="top" secondItem="Pg0-k4-0iD" secondAttribute="top" constant="291" id="Deg-Py-zxk"/>
+                            <constraint firstItem="Pg0-k4-0iD" firstAttribute="trailing" secondItem="wWx-0M-twV" secondAttribute="trailing" constant="84" id="egt-Cl-dmc"/>
+                            <constraint firstItem="wWx-0M-twV" firstAttribute="leading" secondItem="Pg0-k4-0iD" secondAttribute="leading" constant="84" id="hKz-75-w5e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Pg0-k4-0iD"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnGoogleSignIn" destination="wWx-0M-twV" id="T06-UQ-jHX"/>
+                    </connections>
+=======
                             <constraint firstItem="Pg0-k4-0iD" firstAttribute="trailing" secondItem="qcp-c1-Hl6" secondAttribute="trailing" constant="95" id="Aw9-zy-t5T"/>
                             <constraint firstItem="qcp-c1-Hl6" firstAttribute="leading" secondItem="Pg0-k4-0iD" secondAttribute="leading" constant="95" id="PQI-yX-nbC"/>
                             <constraint firstItem="wWx-0M-twV" firstAttribute="centerX" secondItem="qcp-c1-Hl6" secondAttribute="centerX" id="QQy-e5-Gwi"/>
@@ -58,6 +78,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Pg0-k4-0iD"/>
                     </view>
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMk-uj-jYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -411,7 +432,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+<<<<<<< HEAD
+        <segue reference="VLK-Yz-2rh"/>
+=======
         <segue reference="ate-kG-60n"/>
         <segue reference="2er-sV-TU5"/>
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
     </inferredMetricsTieBreakers>
 </document>

@@ -12,18 +12,29 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
  
     @IBOutlet weak var tableview: UITableView!
     
+<<<<<<< HEAD
+=======
     
+<<<<<<< HEAD
     
+=======
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
+>>>>>>> e04677f1de76f28ef0569485fe0cd5cb37a617de
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableview.delegate = self
         tableview.dataSource = self
+<<<<<<< HEAD
+=======
         getJSON()
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 
         // Do any additional setup after loading the view.
     }
     
+<<<<<<< HEAD
+=======
     func getJSON() {
         print("heyyyo")
         let url = URL(string: "http://localhost:3000/clubfinder/clubs")!
@@ -45,6 +56,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
     }
     
+>>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
