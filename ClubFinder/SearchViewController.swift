@@ -13,6 +13,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableview: UITableView!
     
     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +25,8 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func getJSON() {
-        let url = URL(string: "https://localhost:27017")!
+        print("heyyyo")
+        let url = URL(string: "http://localhost:3000/clubfinder/clubs")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         let task = session.dataTask(with: request) { (data, response, error) in
@@ -32,7 +34,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
             if let error = error {
                 print(error.localizedDescription)
             } else if let data = data {
-                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                let dataDictionary = try? JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 
                 print(dataDictionary)
                 

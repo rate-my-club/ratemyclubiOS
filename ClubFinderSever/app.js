@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 mongoose.Promise = require('bluebird');
 mongoose.connect('mongodb://localhost:27017/clubfinder', {useNewUrlParser: true});
 app.get('/', function(req,res) {
-  res.json({message: 'You didnt fuck up'});
+  res.json({message: 'You got this far'});
 
 });
 
