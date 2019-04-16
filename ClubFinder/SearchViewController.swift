@@ -12,31 +12,20 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
  
     @IBOutlet weak var tableview: UITableView!
     
-<<<<<<< HEAD
-=======
-    
-<<<<<<< HEAD
-    
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
->>>>>>> e04677f1de76f28ef0569485fe0cd5cb37a617de
+    var num_cells: Int = 0
+    var clubs: [[String: Any]] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableview.delegate = self
         tableview.dataSource = self
-<<<<<<< HEAD
-=======
         getJSON()
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 
         // Do any additional setup after loading the view.
     }
     
-<<<<<<< HEAD
-=======
+
     func getJSON() {
-        print("heyyyo")
         let url = URL(string: "http://localhost:3000/clubfinder/clubs")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
@@ -45,9 +34,17 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
             if let error = error {
                 print(error.localizedDescription)
             } else if let data = data {
-                let dataDictionary = try? JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-                
-                print(dataDictionary)
+                if let dataDictionary = try? JSONSerialization.jsonObject(with: data, options: []) as! [[String: Any]] {
+                    print(dataDictionary)
+                    self.clubs = dataDictionary
+                    self.num_cells = dataDictionary.count
+                    self.tableview.reloadData()
+                    
+                    
+                } else {
+                    print("Error")
+                    self.num_cells = 0
+                }
                 
             }
         }
@@ -56,18 +53,37 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
     }
     
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-       return 5
+       return num_cells
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SearchTableViewCell") as! SearchTableViewCell
-           return cell
+        cell.clubName?.text = self.clubs[indexPath.section]["name"]! as? String
+        cell.clubDescription?.text = self.clubs[indexPath.section]["description"]! as? String
+        
+        cell.avg_rating.text = String(self.clubs[indexPath.section]["avg_rating"] as! Double) + "/5"
+       
+        
+        /*if (self.clubs[indexPath.section]["image_url"] as? String != "") {*/
+        
+        
+        let url = URL(string: "https://activities.osu.edu/img/blank-group-640x480.png") ?? nil
+        
+        let data = try? Data(contentsOf: (url ?? nil)!)
+        cell.clubImage.image = UIImage(data: data!)
+        
+            
+//        } else {
+//            print("No image")
+//        }
+        
+         return cell
     }
     
     

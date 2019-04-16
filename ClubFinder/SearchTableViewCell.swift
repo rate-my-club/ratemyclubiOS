@@ -10,6 +10,12 @@ import UIKit
 
 class SearchTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var clubName: UILabel!
+    @IBOutlet weak var clubDescription: UILabel!
+    @IBOutlet weak var avg_rating: UILabel!
+    @IBOutlet weak var clubImage: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,6 +25,7 @@ class SearchTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+       
     }
 
 }

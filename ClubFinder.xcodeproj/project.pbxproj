@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		4BDA72D36F99E8EE31921327 /* Pods_ClubFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F765A7DE5DF2BFA3533C95 /* Pods_ClubFinderUITests.framework */; };
 		801A1390324EF3AE00B4994C /* Pods_ClubFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC098E11BA9B74F6CBDC990 /* Pods_ClubFinder.framework */; };
 		95D5A5ECE8777F77C2ED6E62 /* Pods_ClubFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC82942A1872B44E96A1E313 /* Pods_ClubFinderTests.framework */; };
 		C589A34C22638F3500B50650 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = C589A34B22638F3500B50650 /* credentials.plist */; };
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 		DD0E3240224988670008B0DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E323F224988670008B0DC /* AppDelegate.swift */; };
 		DD0E3242224988670008B0DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E3241224988670008B0DC /* ViewController.swift */; };
 		DD0E3245224988670008B0DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0E3243224988670008B0DC /* Main.storyboard */; };
@@ -30,6 +27,7 @@
 		DDBD8F9C2251A0DB00E65031 /* FindClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9B2251A0DB00E65031 /* FindClubViewController.swift */; };
 		DDBD8F9E2251A10500E65031 /* AddClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9D2251A10500E65031 /* AddClubViewController.swift */; };
 		DDBD8FA22251A32200E65031 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */; };
+		DDF0E028226541B300087B69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF0E027226541B300087B69 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +48,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		1B1BCF3ED70FD01DEC7B13EE /* Pods-ClubFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubFinderTests/Pods-ClubFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		3EC098E11BA9B74F6CBDC990 /* Pods_ClubFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DE2A4D473C74DA08FBB2FD /* Pods-ClubFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubFinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubFinderUITests/Pods-ClubFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -59,8 +56,6 @@
 		A2B40F7D7552397329E23283 /* Pods-ClubFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubFinderTests/Pods-ClubFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD2A6430263E5446C23D1FE4 /* Pods-ClubFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubFinder/Pods-ClubFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		C589A34B22638F3500B50650 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 		DD0E323C224988670008B0DC /* ClubFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0E323F224988670008B0DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD0E3241224988670008B0DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,11 +78,9 @@
 		DDBD8F9B2251A0DB00E65031 /* FindClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClubViewController.swift; sourceTree = "<group>"; };
 		DDBD8F9D2251A10500E65031 /* AddClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClubViewController.swift; sourceTree = "<group>"; };
 		DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
+		DDF0E027226541B300087B69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EDAE4445B084350FFBE0B9F0 /* Pods-ClubFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubFinder/Pods-ClubFinder.release.xcconfig"; sourceTree = "<group>"; };
 		FC82942A1872B44E96A1E313 /* Pods_ClubFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClubFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				801A1390324EF3AE00B4994C /* Pods_ClubFinder.framework in Frameworks */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,10 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				95D5A5ECE8777F77C2ED6E62 /* Pods_ClubFinderTests.framework in Frameworks */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,17 +104,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				4BDA72D36F99E8EE31921327 /* Pods_ClubFinderUITests.framework in Frameworks */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
 		0913FDC4DF50EA7051BB78D0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,20 +134,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 		DD0E3233224988670008B0DC = {
 			isa = PBXGroup;
 			children = (
+				DDF0E027226541B300087B69 /* Default-568h@2x.png */,
 				DD0E323E224988670008B0DC /* ClubFinder */,
 				DD0E32532249886A0008B0DC /* ClubFinderTests */,
 				DD0E325E2249886A0008B0DC /* ClubFinderUITests */,
 				DD0E323D224988670008B0DC /* Products */,
-<<<<<<< HEAD
 				0913FDC4DF50EA7051BB78D0 /* Pods */,
 				45C21BFF6BBA8E2CB1091B26 /* Frameworks */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			);
 			sourceTree = "<group>";
 		};
@@ -192,10 +171,7 @@
 				DDBD8F9522519D2C00E65031 /* HomeViewController.swift */,
 				DDBD8F9322519C6000E65031 /* SearchViewController.swift */,
 				DDBD8F912251997C00E65031 /* MainTabBarViewController.swift */,
-<<<<<<< HEAD
 				C589A34B22638F3500B50650 /* credentials.plist */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 				DDBD8F8F2251931B00E65031 /* LoginViewController.swift */,
 				DD0E32462249886A0008B0DC /* Assets.xcassets */,
 				DD0E32482249886A0008B0DC /* LaunchScreen.storyboard */,
@@ -229,18 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD0E32642249886A0008B0DC /* Build configuration list for PBXNativeTarget "ClubFinder" */;
 			buildPhases = (
-<<<<<<< HEAD
 				5ABC0F806ABF6C1541A4E156 /* [CP] Check Pods Manifest.lock */,
 				DD0E3238224988670008B0DC /* Sources */,
 				DD0E3239224988670008B0DC /* Frameworks */,
 				DD0E323A224988670008B0DC /* Resources */,
 				8CE9511366C915DE275F4B5E /* [CP] Embed Pods Frameworks */,
 				D9F12406618D509B51A39F05 /* [CP] Copy Pods Resources */,
-=======
-				DD0E3238224988670008B0DC /* Sources */,
-				DD0E3239224988670008B0DC /* Frameworks */,
-				DD0E323A224988670008B0DC /* Resources */,
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			);
 			buildRules = (
 			);
@@ -255,10 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD0E32672249886A0008B0DC /* Build configuration list for PBXNativeTarget "ClubFinderTests" */;
 			buildPhases = (
-<<<<<<< HEAD
 				BF07A31D5706DD7B6B7231F5 /* [CP] Check Pods Manifest.lock */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 				DD0E324C2249886A0008B0DC /* Sources */,
 				DD0E324D2249886A0008B0DC /* Frameworks */,
 				DD0E324E2249886A0008B0DC /* Resources */,
@@ -277,10 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD0E326A2249886A0008B0DC /* Build configuration list for PBXNativeTarget "ClubFinderUITests" */;
 			buildPhases = (
-<<<<<<< HEAD
 				FE2A3C154D8C1EB9563B27D3 /* [CP] Check Pods Manifest.lock */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 				DD0E32572249886A0008B0DC /* Sources */,
 				DD0E32582249886A0008B0DC /* Frameworks */,
 				DD0E32592249886A0008B0DC /* Resources */,
@@ -344,11 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0E324A2249886A0008B0DC /* LaunchScreen.storyboard in Resources */,
-<<<<<<< HEAD
 				C589A34C22638F3500B50650 /* credentials.plist in Resources */,
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 				DD0E32472249886A0008B0DC /* Assets.xcassets in Resources */,
+				DDF0E028226541B300087B69 /* Default-568h@2x.png in Resources */,
 				DD0E3245224988670008B0DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,7 +331,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-<<<<<<< HEAD
 /* Begin PBXShellScriptBuildPhase section */
 		5ABC0F806ABF6C1541A4E156 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -485,8 +446,6 @@
 		};
 /* End PBXShellScriptBuildPhase section */
 
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 /* Begin PBXSourcesBuildPhase section */
 		DD0E3238224988670008B0DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -675,10 +634,7 @@
 		};
 		DD0E32652249886A0008B0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = AD2A6430263E5446C23D1FE4 /* Pods-ClubFinder.debug.xcconfig */;
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -697,10 +653,7 @@
 		};
 		DD0E32662249886A0008B0DC /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = EDAE4445B084350FFBE0B9F0 /* Pods-ClubFinder.release.xcconfig */;
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -719,10 +672,7 @@
 		};
 		DD0E32682249886A0008B0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = A2B40F7D7552397329E23283 /* Pods-ClubFinderTests.debug.xcconfig */;
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -743,10 +693,7 @@
 		};
 		DD0E32692249886A0008B0DC /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 1B1BCF3ED70FD01DEC7B13EE /* Pods-ClubFinderTests.release.xcconfig */;
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -767,10 +714,7 @@
 		};
 		DD0E326B2249886A0008B0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 7752B906F6092D76A939CD11 /* Pods-ClubFinderUITests.debug.xcconfig */;
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -790,10 +734,7 @@
 		};
 		DD0E326C2249886A0008B0DC /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
 			baseConfigurationReference = 41DE2A4D473C74DA08FBB2FD /* Pods-ClubFinderUITests.release.xcconfig */;
-=======
->>>>>>> d5996022cb9aaa00966b5a2304519a2a67142bae
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -112,7 +112,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        print(schoolNames.count)
+        //print(schoolNames.count)
         return schoolNames.count
     }
     
