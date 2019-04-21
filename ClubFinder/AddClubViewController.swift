@@ -1,9 +1,8 @@
 //
 //  AddClubViewController.swift
-//  ClubFinder
+//  
 //
-//  Created by Sunil Green on 3/31/19.
-//  Copyright © 2019 Sunil Green. All rights reserved.
+//  Created by Sunil Green on 4/17/19.
 //
 
 import UIKit

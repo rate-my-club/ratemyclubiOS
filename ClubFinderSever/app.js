@@ -34,6 +34,14 @@ app.get('/clubfinder/clubs', function(req,res) {
   })
 })
 
+app.post('/addclub', function(req, res) {
+  var name = req;
+  var description = req;
+  var school = req;
+  Club.save({school: school, name: name, description: description});
+
+});
+
 
 
 app.listen(3000);

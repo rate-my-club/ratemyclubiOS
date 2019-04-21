@@ -303,10 +303,10 @@
             </objects>
             <point key="canvasLocation" x="-460" y="1234.6326836581711"/>
         </scene>
-        <!--Find Club View Controller-->
+        <!--Add Club View Controller-->
         <scene sceneID="uO3-bl-20Y">
             <objects>
-                <viewController id="VO9-8c-Zag" customClass="FindClubViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VO9-8c-Zag" customClass="AddClubViewController" customModule="ClubFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zRf-Rs-rzF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -387,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="-1007.2" y="1969.5652173913045"/>
         </scene>
-        <!--Add Club View Controller-->
+        <!--View Controller-->
         <scene sceneID="VjK-G2-O02">
             <objects>
-                <viewController id="m8f-NY-d7G" customClass="AddClubViewController" sceneMemberID="viewController">
+                <viewController id="m8f-NY-d7G" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dAO-eL-O1R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
