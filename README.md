@@ -122,9 +122,9 @@ Completed Stories:
  * [x]Give the club a rating 
 
 Final things to finish:
- * []Add a club to the list of clubs
- * []Find a specified club from list of clubs
- * []Create a club
+ * Add a club to the list of clubs
+ * Find a specified club from list of clubs
+ * Create a club
 
 
 
