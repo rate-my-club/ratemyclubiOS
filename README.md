@@ -114,7 +114,7 @@
 Added functionality for storing collections of schools including documents for each club containg the name, description, ratings, etc.
 
 
-#### Milestone #3 Assessment:
+#### Milestone #4 Assessment:
 Completed Stories:
  * [x]Create an account
  * [x]Login
