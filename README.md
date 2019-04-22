@@ -13,6 +13,7 @@
  * Give the club a rating 
  
  
+ 
 **Optional Nice-to-have Stories**
 
  * Leave a comment with the rating
@@ -111,3 +112,19 @@
 ![alt text](https://i.imgur.com/7nt8V84.png)
 
 Added functionality for storing collections of schools including documents for each club containg the name, description, ratings, etc.
+
+
+#### Milestone #3 Assessment:
+Completed Stories:
+[x]Create an account
+[x]Login
+[x]Find their school
+[x]Give the club a rating 
+
+Final things to finish:
+[]Add a club to the list of clubs
+[]Find a specified club from list of clubs
+[]Create a club
+
+
+
