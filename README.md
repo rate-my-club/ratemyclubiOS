@@ -116,15 +116,15 @@ Added functionality for storing collections of schools including documents for e
 
 #### Milestone #3 Assessment:
 Completed Stories:
-[x]Create an account
-[x]Login
-[x]Find their school
-[x]Give the club a rating 
+ *[x]Create an account
+ *[x]Login
+ *[x]Find their school
+ *[x]Give the club a rating 
 
 Final things to finish:
-[]Add a club to the list of clubs
-[]Find a specified club from list of clubs
-[]Create a club
+ *[]Add a club to the list of clubs
+ *[]Find a specified club from list of clubs
+ *[]Create a club
 
 
 
