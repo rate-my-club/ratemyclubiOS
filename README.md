@@ -126,5 +126,5 @@ Final things to finish:
  * Find a specified club from list of clubs
  * Create a club
 
-
+<img src='https://i.imgur.com/XkCyuKZ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />' 
 
