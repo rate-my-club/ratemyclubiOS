@@ -113,8 +113,13 @@
 
 Added functionality for storing collections of schools including documents for each club containg the name, description, ratings, etc.
 
+#### Milestone #3 Assesment:
+-This week we were able to get our MongoDB backend to connected to our front end. We also worked a little more on our layout. We're behind, we know that. We have a lot to do but now that our backend is partially working we feel confident. We just have to add posting ability to it.
+
+<img src='https://i.imgur.com/f0G2Aum.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />' 
 
 #### Milestone #4 Assessment:
+-Major headway was made this week. We got posting ability to our backend, and early next week will be finishing up posting ability to add a club and not just rate the ones there. While not fully implemnted, we also got authentication with google working and the code for it is on our "testing_branch" branch. Tomorrow, and leading up to demo day, we will be finishing up add club ability, add a name field to our tableview cells to see past ratings from other users, and will be finishing up the UI. While that may seem like a lot, the hardest part, getting complete backend functionality, is complete. We anticpate to have a completed app by demo day and are looking forward to presenting. 
 Completed Stories:
  * [x]Create an account
  * [x]Login
