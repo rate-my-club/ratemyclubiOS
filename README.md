@@ -138,4 +138,6 @@ The project is for the most part done. While we couldn't add some other function
 
 https://www.youtube.com/watch?v=05lQtFn_WgI
 
+And a gif of the most recently updated version of the app:
 
+<img src='https://i.imgur.com/7fbQQVs.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />' 
