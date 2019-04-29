@@ -133,3 +133,9 @@ Final things to finish:
 
 <img src='https://i.imgur.com/XkCyuKZ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />' 
 
+#### Final Result
+The project is for the most part done. While we couldn't add some other functionality we originally hoped for, the basic functionality works in full. You can add a club to a specified school's list of clubs. Search for clubs within that school. Rate clubs at that school and see what other people have rated them as and commented about them. A link to our walkthrough is below.
+
+https://www.youtube.com/watch?v=05lQtFn_WgI
+
+
