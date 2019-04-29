@@ -18,11 +18,16 @@
 		DD0E324A2249886A0008B0DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0E32482249886A0008B0DC /* LaunchScreen.storyboard */; };
 		DD0E32552249886A0008B0DC /* ClubFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E32542249886A0008B0DC /* ClubFinderTests.swift */; };
 		DD0E32602249886A0008B0DC /* ClubFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0E325F2249886A0008B0DC /* ClubFinderUITests.swift */; };
-		DD4526E22267E64E003F12E2 /* AddClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526E12267E64E003F12E2 /* AddClubViewController.swift */; };
+		DD4526E4226D046D003F12E2 /* AddClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526E3226D046D003F12E2 /* AddClubViewController.swift */; };
+		DD4526E8226FC010003F12E2 /* ClubClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526E7226FC010003F12E2 /* ClubClass.swift */; };
+		DD4526EA2270F345003F12E2 /* RateClubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526E92270F345003F12E2 /* RateClubTableViewCell.swift */; };
+		DD4526EC2270FE70003F12E2 /* TopClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526EB2270FE70003F12E2 /* TopClubsViewController.swift */; };
+		DD4526F022710046003F12E2 /* RateClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526EF22710046003F12E2 /* RateClubViewController.swift */; };
+		DD4526F22271012F003F12E2 /* TopClubCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526F12271012F003F12E2 /* TopClubCellTableViewCell.swift */; };
+		DD4526F42271042B003F12E2 /* ClubClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4526F32271042B003F12E2 /* ClubClass2.swift */; };
 		DDBD8F902251931B00E65031 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F8F2251931B00E65031 /* LoginViewController.swift */; };
 		DDBD8F922251997C00E65031 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F912251997C00E65031 /* MainTabBarViewController.swift */; };
 		DDBD8F9422519C6000E65031 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9322519C6000E65031 /* SearchViewController.swift */; };
-		DDBD8F9622519D2C00E65031 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9522519D2C00E65031 /* HomeViewController.swift */; };
 		DDBD8F9822519D4D00E65031 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9722519D4D00E65031 /* ProfileViewController.swift */; };
 		DDBD8F9A22519D6900E65031 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8F9922519D6900E65031 /* SettingsViewController.swift */; };
 		DDBD8FA22251A32200E65031 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */; };
@@ -68,11 +73,16 @@
 		DD0E325B2249886A0008B0DC /* ClubFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClubFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0E325F2249886A0008B0DC /* ClubFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubFinderUITests.swift; sourceTree = "<group>"; };
 		DD0E32612249886A0008B0DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4526E12267E64E003F12E2 /* AddClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddClubViewController.swift; path = /Users/sunilgreen/Desktop/Apps/ClubFinderAuthandLayout/ClubFinder/AddClubViewController.swift; sourceTree = "<absolute>"; };
+		DD4526E3226D046D003F12E2 /* AddClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClubViewController.swift; sourceTree = "<group>"; };
+		DD4526E7226FC010003F12E2 /* ClubClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubClass.swift; sourceTree = "<group>"; };
+		DD4526E92270F345003F12E2 /* RateClubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateClubTableViewCell.swift; sourceTree = "<group>"; };
+		DD4526EB2270FE70003F12E2 /* TopClubsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopClubsViewController.swift; sourceTree = "<group>"; };
+		DD4526EF22710046003F12E2 /* RateClubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateClubViewController.swift; sourceTree = "<group>"; };
+		DD4526F12271012F003F12E2 /* TopClubCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopClubCellTableViewCell.swift; sourceTree = "<group>"; };
+		DD4526F32271042B003F12E2 /* ClubClass2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubClass2.swift; sourceTree = "<group>"; };
 		DDBD8F8F2251931B00E65031 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DDBD8F912251997C00E65031 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		DDBD8F9322519C6000E65031 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		DDBD8F9522519D2C00E65031 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DDBD8F9722519D4D00E65031 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DDBD8F9922519D6900E65031 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -158,18 +168,23 @@
 		DD0E323E224988670008B0DC /* ClubFinder */ = {
 			isa = PBXGroup;
 			children = (
-				DD4526E12267E64E003F12E2 /* AddClubViewController.swift */,
 				DD0E323F224988670008B0DC /* AppDelegate.swift */,
 				DD0E3241224988670008B0DC /* ViewController.swift */,
 				DD0E3243224988670008B0DC /* Main.storyboard */,
+				DD4526F32271042B003F12E2 /* ClubClass2.swift */,
+				DD4526F12271012F003F12E2 /* TopClubCellTableViewCell.swift */,
+				DD4526EB2270FE70003F12E2 /* TopClubsViewController.swift */,
+				DD4526E92270F345003F12E2 /* RateClubTableViewCell.swift */,
 				DDBD8FA12251A32200E65031 /* SearchTableViewCell.swift */,
 				DDBD8F9922519D6900E65031 /* SettingsViewController.swift */,
 				DDBD8F9722519D4D00E65031 /* ProfileViewController.swift */,
-				DDBD8F9522519D2C00E65031 /* HomeViewController.swift */,
 				DDBD8F9322519C6000E65031 /* SearchViewController.swift */,
+				DD4526E7226FC010003F12E2 /* ClubClass.swift */,
 				DDBD8F912251997C00E65031 /* MainTabBarViewController.swift */,
+				DD4526E3226D046D003F12E2 /* AddClubViewController.swift */,
 				C589A34B22638F3500B50650 /* credentials.plist */,
 				DDBD8F8F2251931B00E65031 /* LoginViewController.swift */,
+				DD4526EF22710046003F12E2 /* RateClubViewController.swift */,
 				DD0E32462249886A0008B0DC /* Assets.xcassets */,
 				DD0E32482249886A0008B0DC /* LaunchScreen.storyboard */,
 				DD0E324B2249886A0008B0DC /* Info.plist */,
@@ -360,6 +375,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ClubFinder/Pods-ClubFinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
@@ -367,6 +383,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 			);
@@ -450,14 +467,19 @@
 			files = (
 				DDBD8F9422519C6000E65031 /* SearchViewController.swift in Sources */,
 				DDBD8F902251931B00E65031 /* LoginViewController.swift in Sources */,
-				DD4526E22267E64E003F12E2 /* AddClubViewController.swift in Sources */,
+				DD4526E4226D046D003F12E2 /* AddClubViewController.swift in Sources */,
 				DDBD8FA22251A32200E65031 /* SearchTableViewCell.swift in Sources */,
 				DDBD8F922251997C00E65031 /* MainTabBarViewController.swift in Sources */,
 				DD0E3242224988670008B0DC /* ViewController.swift in Sources */,
+				DD4526EC2270FE70003F12E2 /* TopClubsViewController.swift in Sources */,
 				DDBD8F9822519D4D00E65031 /* ProfileViewController.swift in Sources */,
 				DD0E3240224988670008B0DC /* AppDelegate.swift in Sources */,
-				DDBD8F9622519D2C00E65031 /* HomeViewController.swift in Sources */,
+				DD4526E8226FC010003F12E2 /* ClubClass.swift in Sources */,
 				DDBD8F9A22519D6900E65031 /* SettingsViewController.swift in Sources */,
+				DD4526F42271042B003F12E2 /* ClubClass2.swift in Sources */,
+				DD4526F22271012F003F12E2 /* TopClubCellTableViewCell.swift in Sources */,
+				DD4526F022710046003F12E2 /* RateClubViewController.swift in Sources */,
+				DD4526EA2270F345003F12E2 /* RateClubTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

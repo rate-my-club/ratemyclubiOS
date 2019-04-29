@@ -7,9 +7,12 @@ var db = mongoose.connection;
 //let Schema = mongoose.Schema;
 
 const clubSchema = new mongoose.Schema({
-  name: {
+  school: {
     type: String,
     index: true
+  },
+  name: {
+    type: String,
   },
   description: {
     type: String,
@@ -17,8 +20,11 @@ const clubSchema = new mongoose.Schema({
   image_url: {
     type: String,
   },
-  avg_rating: {
-    type: Number,
+  // avg_rating: {
+  //   type: Number,
+  // },
+  username: {
+    type: Array,
   },
   reviews: {
     type: Array,

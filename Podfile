@@ -7,6 +7,8 @@ target 'ClubFinder' do
 
   # Pods for ClubFinder
 pod 'GoogleSignIn'
+pod 'Alamofire'
+
   target 'ClubFinderTests' do
     inherit! :search_paths
     # Pods for testing

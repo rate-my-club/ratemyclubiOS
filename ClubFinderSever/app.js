@@ -27,20 +27,56 @@ app.get('/clubfinder/clubs', function(req,res) {
   // })
 
 
-  console.log("whats up");
+  //console.log("whats up");
   Club.find({}, function(err, user) {
     res.send(user);
     console.log(JSON.stringify(user));
   })
 })
 
+
+//add school property during iOS
+
 app.post('/addclub', function(req, res) {
-  var name = req;
-  var description = req;
-  var school = req;
-  Club.save({school: school, name: name, description: description});
+  console.log("adding a club");
+  console.log(req.body);
+  var name = req.body.name;
+  var description = req.body.description;
+  var image_url = req.body.image_url;
+  var school = req.body.school;
+
+  var myObj = new Club({school: school, name: name, description: description, image_url: image_url, username: [], reviews: [], ratings: []});
+
+  // Club.save(function (err, ) {
+  //    if (err) return console.error(err);
+  //    console.log(book.name + " saved to bookstore collection.");
+  //  });
+  myObj.save(function (err) {
+    if (err) return handleError(err);
+    console.log("saved!");
+  })
+  //Club.save({school: school, name: name, description: description});
 
 });
+
+app.post('/addrating', function(req, res) {
+  console.log("adding a rating");
+  console.log((req.body));
+  var school = req.body.school;
+  var name = req.body.name;
+  var username = req.body.username;
+  var review = req.body.review;
+  var rating = parseFloat(req.body.rating);
+
+  Club.findOneAndUpdate({name: name, school: school}, {$push: {ratings: rating, reviews: review, username: username}}, function(err, usr) {
+    console.log(usr);
+      res.json({ success: true});
+
+  });
+
+
+
+})
 
 
 
